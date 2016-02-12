@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindOccurrences", "src\FindOccurrences\FindOccurrences.xproj", "{3838C9F5-8BC3-4CFA-9828-2B11990DFA3A}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FindOccurrences.Tests", "src\FindOccurrences.Tests\FindOccurrences.Tests.xproj", "{02D518BF-3668-44F4-947C-B7216C4B5B3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{3838C9F5-8BC3-4CFA-9828-2B11990DFA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3838C9F5-8BC3-4CFA-9828-2B11990DFA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3838C9F5-8BC3-4CFA-9828-2B11990DFA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D518BF-3668-44F4-947C-B7216C4B5B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D518BF-3668-44F4-947C-B7216C4B5B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D518BF-3668-44F4-947C-B7216C4B5B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D518BF-3668-44F4-947C-B7216C4B5B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3838C9F5-8BC3-4CFA-9828-2B11990DFA3A} = {58A93809-8633-4234-9D3A-719515B305A9}
+		{02D518BF-3668-44F4-947C-B7216C4B5B3D} = {58A93809-8633-4234-9D3A-719515B305A9}
 	EndGlobalSection
 EndGlobal
